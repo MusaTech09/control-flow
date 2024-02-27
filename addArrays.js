@@ -1,7 +1,7 @@
 //Write a function combineArray(array1, array2) that takes in two arrays of numbers and returns the two arrays combined into a single array.
 
 const combineArray = (array1, array2) => {
-    l
+    return [...array1, ...array2];
 }
 
 console.log(combineArray([1, 2], [3, 4])); // => [1, 2, 3, 4]
